@@ -1,0 +1,233 @@
+.wrapper{
+	overflow: hidden;
+	min-height: 100%;
+	position: relative;
+}
+
+
+	
+		
+	
+
+
+.block{
+	width: 200px;
+	height: 200px;
+	background-color: rgb(19, 158, 61);
+	margin:100px;
+
+} 
+
+.block__item{
+	width: 200px;
+	height: 200px;
+	background-color: blue;
+	transform:translate(20%, 20%);
+}
+
+
+.block-2{
+	width: 200px;
+	height: 200px;
+background-color:red;
+margin:100px;
+}	
+
+
+.block-2__item{
+	width: 200px;
+	height: 200px;
+background-color: aqua;
+transform: scale(0.15);
+}
+
+.block-3{
+	width: 200px;
+	height: 200px;
+background-color:rgb(190, 197, 93) ;
+margin:100px;
+}	
+
+
+.block-3__item{
+	width: 200px;
+	height: 200px;
+background-color: rgb(145, 26, 129);
+transform: rotate(30deg)
+}
+
+.block-4{
+	width: 200px;
+	height: 200px;
+background-color:rgb(168, 104, 21);
+margin:100px;
+
+}	
+
+
+.block-4__item{
+	width: 200px;
+	height: 200px;
+background-color: rgb(145, 105, 139);
+transform: skew(20deg,30deg)
+
+}
+
+.block-5{
+	width: 200px;
+	height: 200px;
+background-color:rgb(101, 172, 8);
+margin:100px;
+}	
+
+
+.block-5__item{
+	width: 200px;
+	height: 200px;
+background-color: rgb(84, 139, 184);
+transform-origin: 0 top;
+transform: rotate(30deg)
+}
+
+
+.block-6{
+	width: 200px;
+	height: 200px;
+background-color:rgb(190, 240, 9);
+perspective: 200px;
+perspective-origin:center;
+margin:100px;
+}	
+
+
+.block-6__item{
+	width: 200px;
+	height: 200px;
+background-color: rgb(71, 14, 124);
+transform: rotatex(30deg)
+}
+
+.block-7{
+	width: 200px;
+	height: 200px;
+background-color:rgb(190, 240, 9);
+perspective: 200px;
+transform-style: preserve-3d;
+margin:100px;
+}	
+
+
+.block-7__item{
+	width: 200px;
+	height: 200px;
+background-color: rgb(71, 14, 124);
+transform: rotatex(30deg)
+}
+
+.block-7__item:hover{
+	width: 200px;
+	height: 200px;
+background-color: rgb(71, 14, 124);
+transform: rotatex(0deg)
+}
+
+.object{
+	padding-top: 300px;
+}
+
+.car{
+	max-width: 1600px;
+	margin:0 auto;
+	height: 500px;
+	position: relative;
+	
+
+}
+
+.road{
+	background-image: url("../img/road.jpg") ;
+	background-repeat: no-repeat;
+	background-position: 0 -150px;
+	background-size: 100%;
+	position: relative;
+padding-left: 50px;
+padding-top: 20px;
+}
+
+
+.car__0{
+	width: 200px;
+	height: 200px;
+	position: relative;
+}
+
+
+.car__1{
+	width: 200px;
+	height: 200px;
+background-color: blue;
+position: relative;
+padding-left: 100px;
+}
+
+
+
+.car__2{
+	width: 200px;
+	height: 400px;
+	background-color: blue;
+	position: relative;
+left:200px;
+bottom:400px;
+}
+
+
+
+.car__3{
+	width: 180px;
+    height:180px;
+background-color: aquamarine;
+position: relative;
+left: 210px;
+bottom: 790px;
+}
+
+.car__4{
+	width: 800px;
+	height: 400px;
+	background-color: rgb(81, 6, 131);
+	position: relative;
+	left: 400px;
+	bottom: 980px;
+}
+
+.car__5{
+	width: 180px;
+    height:180px;
+background-color: black;
+border-radius: 50%;
+position: relative;
+left:90px;
+bottom:1100px
+}
+
+.car__6{
+	width: 180px;
+    height:180px;
+background-color: black;
+border-radius: 50%;
+position: relative;
+left: 600px;
+bottom:1280px;
+}
+
+.car__7{
+	width: 180px;
+    height:180px;
+background-color: black;
+border-radius: 50%;
+position: relative;
+left:900px;
+bottom:1460px;
+}
+
